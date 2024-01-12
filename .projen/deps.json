@@ -1,12 +1,33 @@
 {
   "dependencies": [
     {
+      "name": "@babel/core",
+      "type": "build"
+    },
+    {
+      "name": "@babel/preset-env",
+      "type": "build"
+    },
+    {
+      "name": "@babel/preset-react",
+      "type": "build"
+    },
+    {
+      "name": "@types/betterdiscord",
+      "version": "github:zerthox/betterdiscord-types",
+      "type": "build"
+    },
+    {
       "name": "@types/jest",
       "type": "build"
     },
     {
       "name": "@types/node",
       "version": "^16",
+      "type": "build"
+    },
+    {
+      "name": "@types/react",
       "type": "build"
     },
     {
@@ -17,6 +38,10 @@
     {
       "name": "@typescript-eslint/parser",
       "version": "^6",
+      "type": "build"
+    },
+    {
+      "name": "babel-loader",
       "type": "build"
     },
     {
@@ -60,7 +85,15 @@
       "type": "build"
     },
     {
+      "name": "raw-loader",
+      "type": "build"
+    },
+    {
       "name": "ts-jest",
+      "type": "build"
+    },
+    {
+      "name": "ts-loader",
       "type": "build"
     },
     {
@@ -69,6 +102,14 @@
     },
     {
       "name": "typescript",
+      "type": "build"
+    },
+    {
+      "name": "webpack",
+      "type": "build"
+    },
+    {
+      "name": "webpack-cli",
       "type": "build"
     }
   ],

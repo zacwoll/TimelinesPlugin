@@ -162,13 +162,13 @@
           "exec": "yarn upgrade npm-check-updates"
         },
         {
-          "exec": "npm-check-updates --upgrade --target=minor --peer --dep=dev,peer,prod,optional --filter=@types/jest,@types/node,@typescript-eslint/eslint-plugin,@typescript-eslint/parser,constructs,eslint-import-resolver-node,eslint-import-resolver-typescript,eslint-plugin-import,eslint,jest,jest-junit,npm-check-updates,projen,ts-jest,ts-node,typescript"
+          "exec": "npm-check-updates --upgrade --target=minor --peer --dep=dev,peer,prod,optional --filter=@babel/core,@babel/preset-env,@babel/preset-react,@types/jest,@types/node,@types/react,@typescript-eslint/eslint-plugin,@typescript-eslint/parser,babel-loader,constructs,eslint-import-resolver-node,eslint-import-resolver-typescript,eslint-plugin-import,eslint,jest,jest-junit,npm-check-updates,projen,raw-loader,ts-jest,ts-loader,ts-node,typescript,webpack,webpack-cli"
         },
         {
           "exec": "yarn install --check-files"
         },
         {
-          "exec": "yarn upgrade @types/jest @types/node @typescript-eslint/eslint-plugin @typescript-eslint/parser constructs eslint-import-resolver-node eslint-import-resolver-typescript eslint-plugin-import eslint jest jest-junit npm-check-updates projen ts-jest ts-node typescript"
+          "exec": "yarn upgrade @babel/core @babel/preset-env @babel/preset-react @types/jest @types/node @types/react @typescript-eslint/eslint-plugin @typescript-eslint/parser babel-loader constructs eslint-import-resolver-node eslint-import-resolver-typescript eslint-plugin-import eslint jest jest-junit npm-check-updates projen raw-loader ts-jest ts-loader ts-node typescript webpack webpack-cli"
         },
         {
           "exec": "npx projen"
